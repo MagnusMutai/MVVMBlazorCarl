@@ -1,0 +1,9 @@
+﻿@page "/"
+@inject NumberViewModel Model
+<PageTitle>Home</PageTitle>
+
+
+<div>
+    <p>Enter a number:</p>
+    <input type="number" @bind="Model.Number"/>
+</div>
